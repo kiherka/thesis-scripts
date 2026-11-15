@@ -1,6 +1,6 @@
-# SLX scripts – compiled collection
+# Thesis scripts – compiled collection
 
-Scripts gathered from every `SLX-*` folder under `/mnt/scratche/slow/sblab/herka01`, plus `SLX-27392` from `/mnt/nas-data/sblab/group_folders/herka01`, with the original folder structure preserved.
+Scripts gathered from every run folder used in the course of massively parallel insert and single insert (ATRX promoter) analyses with the original folder structure preserved. This summary, together with Snakelike analysis pipelines for the massively parallel insert project, were designed using Anthropic Claude as a tool (Opus and Sonnet models).
 
 **Contents:** 142 scripts (`.sh`, `.py`, `Snakefile`), 32 workflow YAMLs (pipeline `config/`, SLURM/Snakemake `profile/`, conda `envs/`), 18 demultiplexing barcode lists (`r1`/`r2`, see [Demultiplexing lists](#demultiplexing-lists)) and the 2 pre-existing markdown notes. Data, logs, bigwigs, BAMs and other outputs are excluded. The symlinked `envs/` directories in SLX-26997 / SLX-27843 / SLX-27925 point at the SLX-27649 envs and are not duplicated.
 
